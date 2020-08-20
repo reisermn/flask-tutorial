@@ -29,7 +29,18 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
+    # Import the blueprints and functions
+    # Get database
     from . import db
     db.init_app(app)
+    
+    # Security
+    from . import auth
+    app.register_blueprint(auth.bp)
+
+    # Blog
+    from . import blog
+    app.register_blueprint(blog.bp)
+    app.add_url_rule('/', endpoint='index')
 
     return app

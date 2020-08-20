@@ -16,3 +16,4 @@ CREATE TABLE post (
     FOREIGN KEY (author_id) REFERENCES user (id)
 );
 
+--Remember to export FLASK_APP=flaskr and FLASK_ENV=development
