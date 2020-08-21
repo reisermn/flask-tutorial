@@ -1,0 +1,14 @@
+click==7.1.2
+Flask==1.1.2
+-e git+git@github.com:reisermn/flask-tutorial.git@c0f73aa0b128e41fcd19d0c29d86748e867eb0d7#egg=flaskr
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+numpy==1.19.1
+pandas==1.1.0
+python-dateutil==2.8.1
+pytz==2020.1
+six==1.15.0
+waitress==1.4.4
+Werkzeug==1.0.1
