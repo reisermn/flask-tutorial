@@ -1,6 +1,6 @@
 click==7.1.2
 Flask==1.1.2
--e git+git@github.com:reisermn/flask-tutorial.git@c0f73aa0b128e41fcd19d0c29d86748e867eb0d7#egg=flaskr
+# -e git+git@github.com:reisermn/flask-tutorial.git@c0f73aa0b128e41fcd19d0c29d86748e867eb0d7#egg=flaskr
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
